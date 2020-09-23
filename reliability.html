@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BatNav</title>
+    <link rel="icon" href=""/>
+    <link rel="stylesheet" href="libs/css/jquery.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="img/home/logo.png">
+        </a>
+    </header>
+    <section class="battery-block">
+        <p class="about-project-1">What battery reliability do you need?</p>
+        <div class="range-content">
+            <form class="range-form">
+                <div data-role="rangeslider">
+                    <label for="range-1a" class="range-text-1">Design Life</label>
+                    <p class="range-text-2">Expected life of the battery.</p>
+                    <input type="range" name="range-1a" id="range-1a" min="0    " max="100" value="1" data-popup-enabled="true" data-show-value="true">
+                    <label for="range-1b">Rangeslider:</label>
+                    <input type="range" name="range-1b" id="range-1b" min="0" max="20" value="13" data-popup-enabled="true" data-show-value="true">
+                </div>
+            </form>
+            <form class="range-form">
+                <div data-role="rangeslider">
+                    <label for="range-2a" class="range-text-1">Full Cycles per Day</label>
+                    <p class="range-text-2">Cycles from maximum voltage to minimum voltage per day.</p>
+                    <input type="range" name="range-2a" id="range-2a" min="0    " max="5" value="1" data-popup-enabled="true" data-show-value="true">
+                    <label for="range-2b">Rangeslider:</label>
+                    <input type="range" name="range-2b" id="range-2b" min="0" max="5" value="5" data-popup-enabled="true" data-show-value="true">
+                </div>
+            </form>
+            <form class="range-form">
+                <div data-role="rangeslider">
+                    <label for="range-3a" class="range-text-1">Half Cycles per Day</label>
+                    <p class="range-text-2">Cycles of 50% of voltage range per day.</p>
+                    <input type="range" name="range-3a" id="range-3a" min="0    " max="100" value="4" data-popup-enabled="true" data-show-value="true">
+                    <label for="range-3b">Rangeslider:</label>
+                    <input type="range" name="range-3b" id="range-3b" min="0" max="20" value="7" data-popup-enabled="true" data-show-value="true">
+                </div>
+            </form>
+            <form class="range-form">
+                <div data-role="rangeslider">
+                    <label for="range-4a" class="range-text-1">Criticality</label>
+                    <p class="range-text-2">Not critical is you have an alternative power source. Critical is you will suffer an potentially unrecoverable consequnce.</p>
+                    <input type="range" name="range-4a" id="range-4a" min="0    " max="100" value="10" data-popup-enabled="true" data-show-value="true">
+                    <label for="range-4b">Rangeslider:</label>
+                    <input type="range" name="range-4b" id="range-4b" min="0" max="20" value="20" data-popup-enabled="true" data-show-value="true">
+                </div>
+            </form>
+            <div class="not-sure-block">
+                <p class="not-sure-text">You can update later or click 'Not Sure Yet' and we will reflect that in your product.</p>
+                <a class="not-sure-btn">Not Sure Yet</a>
+            </div>
+        </div>
+        <div class="about-project-block">
+            <a class="battery-previous-btn" href="performance.html">Previous</a>
+            <a class="battery-next-btn" href="battery-functions.html">Next</a>
+        </div>
+    </section>
+    <div class="login-line-block">
+        <div class="login-line"></div>
+    </div>
+    <footer>
+        <div>
+            <a href="home.html">
+                <img src="img/home/logo.png">
+            </a>
+            <p class="footer-text-1">
+                Lowering the cost of big batteries by increasing purchaser knowledge and market competition.
+            </p>
+        </div>
+        <ul>
+            <li><a href="#">Cookie policy</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="terms-service.html" target="_blank">Terms of service</a></li>
+        </ul>
+        <ul>
+            <li><a href="about-project.html" target="_blank">About</a></li>
+            <li><a href="faq.html" target="_blank">FAQs</a></li>
+        </ul>
+        <a class="support-btn" href="support.html" target="_blank">Get Support</a>
+    </footer>
+    <div class="last-block">Copyright © EDLAnalytics. All Rights Reserved.</div>
+    <script src="libs/js/jquery.js"></script>
+    <script src="libs/js/jquery.min.js"></script>
+</body>
+</html>
